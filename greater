@@ -1,0 +1,7 @@
+inputing=input().split()
+a=int(inputing[0])
+b=int(inputing[1])
+if a>b:
+    print("1")
+else:
+    print("0")
