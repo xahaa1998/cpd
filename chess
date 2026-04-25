@@ -1,0 +1,7 @@
+r1, c1 = [int(x) for x in input().split()]
+r2, c2 = [int(x) for x in input().split()]
+
+if r1 == r2 or c1 == c2:
+    print(1)
+else:
+    print(2)
