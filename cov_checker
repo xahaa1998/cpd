@@ -1,0 +1,16 @@
+user_input=input().lower()
+
+checker="cov"
+true=False
+
+for i in range(len(user_input)):
+    if user_input[i:i+3]==checker:
+        print("Veikur!")
+        true=True
+if not true:
+    print("Ekki veikur!")
+
+
+
+
+
