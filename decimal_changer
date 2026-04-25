@@ -1,0 +1,7 @@
+user_input=float(input())
+
+if user_input>=0 and user_input<=10000:
+    rounded=round(user_input)
+    print(rounded)
+else:
+    print("invalid number! try again later")
