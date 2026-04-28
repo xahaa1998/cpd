@@ -1,0 +1,31 @@
+user=int(input())
+if user<=12 and user>=1:
+    if user==1:
+        print("31")
+    elif user==2:
+        print("28")
+    elif user==3:
+        print("31")
+    elif user==4:
+        print("30")
+    elif user==5:
+        print("31")
+    elif user==6:
+        print("30")
+    elif user==7:
+        print("31")   
+    elif user==8:
+        print("31")
+    elif user==9:
+        print("30")
+    elif user==10:
+        print("31")
+    elif user==11:
+        print("30")
+    elif user==12:
+        print("31")
+        
+else:
+    print("invalid number of month")
+
+    
