@@ -1,0 +1,6 @@
+data = input().split()
+r1 = int(data[0])  # The first number is R1
+s = int(data[1])   # The second number is S
+
+r2 = 2 * s - r1
+print(r2)
